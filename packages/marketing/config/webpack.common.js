@@ -1,9 +1,9 @@
-module.export = {
+module.exports = {
   module: {
     rules: [
       {
         test: /\.m?js$/,
-        exlude: /node_modules/,
+        exclude: /node_modules/,
         use: {
           loader: "babel-loader",
           options: {
