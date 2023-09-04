@@ -5,3 +5,4 @@
 - update aws_distribution_id key
 - change zone for aws_distribution_id
 - remove zone for aws_distribution_id
+- fixed wrong distribution_id and region
