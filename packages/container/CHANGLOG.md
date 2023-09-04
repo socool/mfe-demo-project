@@ -4,3 +4,4 @@
 - change aws_distribution_id key
 - update aws_distribution_id key
 - change zone for aws_distribution_id
+- remove zone for aws_distribution_id
