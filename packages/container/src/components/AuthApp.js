@@ -17,6 +17,9 @@ export default () => {
           history.push(nextPathname);
         }
       },
+      onSignin: () => {
+        console.log("User signed in");
+      },
     });
     history.listen(onParentNavigate);
   }, []); // add [] for render MarketingApp once on screen
