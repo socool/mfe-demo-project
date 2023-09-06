@@ -17,7 +17,7 @@ export default () => {
           history.push(nextPathname);
         }
       },
-      onSignin: () => {
+      onSignIn: () => {
         console.log("User signed in");
       },
     });
